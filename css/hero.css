@@ -1,0 +1,23 @@
+.hero-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  color: #0c0c0c;
+}
+
+.hero-title-accent {
+  color: #3350e9;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.hero-scroll-down {
+  font-size: 20px;
+  line-height: 1;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
