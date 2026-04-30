@@ -1,0 +1,19 @@
+.section-banner {
+  background-color: black;
+}
+
+.banner-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  color: #fbfbfb;
+}
+
+.banner-text-accent {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.banner-link {
+  line-height: 1.28571;
+  color: #fbfbfb;
+}

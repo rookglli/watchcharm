@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container header-contaner">
         <a href="./index.html" class="logo">watchcharm</a>
         <nav>
           <ul class="navigation">
@@ -47,56 +47,63 @@
         </nav>
         <ul class="social">
           <li class="social-item">
-            <a href="" class="social-link">Facebook</a>
+            <a href="" class="social-link">Fb</a>
           </li>
           <li class="social-item">
-            <a href="" class="social-link">Instagram</a>
+            <a href="" class="social-link">In</a>
           </li>
           <li class="social-item">
-            <a href="" class="social-link">Youtube</a>
+            <a href="" class="social-link">Yt</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="section section-hero">
+      <section class="section-hero">
         <div class="container">
-          <h1 class="hero-title">
-            Welcome to our <span class="hero-title-accent">collection</span> of
-            premium watches
-          </h1>
-          <p class="hero-text">
-            Our watches are not just timepieces, but also an expression of your
-            personality and lifestyle. From classic designs to modern ones, we
-            have a watch to suit every taste and occasion.
-          </p>
-          <ul>
-            <li>
-              <img
-                src="./image/hero/jonh-wax.png"
-                alt="John Wax"
-                width="60"
-                height="60"
-              />
-            </li>
-            <li>
-              <img
-                src="./image/hero/victoria-romanenko.png"
-                alt="Victoria Romanenko"
-                width="60"
-                height="60"
-              />
-            </li>
-            <li>
-              <img
-                src="./image/hero/anastasia-tarachuk.png"
-                alt="Anastasia Tarachuk"
-                width="60"
-                height="60"
-              />
-            </li>
-          </ul>
-          <a href="#" class="hero-scroll-down">Scroll down</a>
+          <div class="hero-wraper">
+            <div class="hero-wraper-text">
+              <h1 class="hero-title">
+                Welcome to our
+                <span class="hero-title-accent">collection</span> of premium
+                watches
+              </h1>
+              <p class="hero-text">
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+            </div>
+            <div class="hero-wraper-scroll">
+              <ul class="hero-reviews">
+                <li class="hero-reviews-item">
+                  <img
+                    src="./image/hero/jonh-wax.png"
+                    alt="John Wax"
+                    width="60"
+                    height="60"
+                  />
+                </li>
+                <li class="hero-reviews-item">
+                  <img
+                    src="./image/hero/victoria-romanenko.png"
+                    alt="Victoria Romanenko"
+                    width="60"
+                    height="60"
+                  />
+                </li>
+                <li class="hero-reviews-item">
+                  <img
+                    src="./image/hero/anastasia-tarachuk.png"
+                    alt="Anastasia Tarachuk"
+                    width="60"
+                    height="60"
+                  />
+                </li>
+              </ul>
+              <a href="#" class="hero-scroll-down">Scroll down</a>
+            </div>
+          </div>
           <img src="./image/hero/hero-image.png" alt="Premium Watch" />
         </div>
       </section>
@@ -182,12 +189,12 @@
       </section>
       <section class="section section-banner">
         <div class="container">
-          <h2>Banner</h2>
-          <p>
-            Choose your story, making every moment unique. Time is your style,
-            and we reveal it.
+          <h2 class="sr-only">Banner</h2>
+          <p class="banner-text">
+            Choose <span class="banner-text-accent">your story</span>, making
+            every moment unique. Time is your style, and we reveal it.
           </p>
-          <a href="#">Contact Us</a>
+          <a href="#" class="banner-link">Contact Us</a>
         </div>
       </section>
       <section class="section section-sale">
@@ -210,12 +217,15 @@
             </ul>
             <img src="./image/sale/sale-main.png" alt="Sale watch main" />
           </div>
-          <div>
-            <h3>MARQ® Commander (Gen 2) - Carbon Edition</h3>
-            <p>Product tag: 706587</p>
-            <p>€1500</p>
-            <p>€3000</p>
-            <p>
+          <div class="sale-info-wrapper">
+            <h3 class="sale-info-wrapper-title">
+              MARQ® Commander (Gen 2) - Carbon Edition
+            </h3>
+            <p class="sale-info-wrapper-text">Product tag: 706587</p>
+            <p class="sale-info-wrapper-price">
+              <span class="sale-info-wrapper-price-accent">€1500</span> €3000
+            </p>
+            <p class="sale-info-wrapper-description">
               The Garmin MARQ Commander Gen 2 Carbon Edition is a modern
               smartwatch for adventurers that takes materials and features to
               the next level. The body of the watch is made of very durable
@@ -236,7 +246,7 @@
       </section>
       <section class="section section-review">
         <div class="container">
-          <h2 class="section-title">Review</h2>
+          <h2 class="section-title">Reviews</h2>
           <ul class="reviews">
             <li class="reviews-item">
               <img
@@ -281,7 +291,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo">watchcharm</a>
         <ul class="social">
