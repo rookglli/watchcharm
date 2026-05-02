@@ -1,3 +1,18 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 23px;
+}
+
+.catalog-item {
+  flex-basis: calc((100%-46px) / 3);
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 368px;
+  height: 414px;
+  background-color: #f3f3f3;
+}
+
 .catalog-title {
   font-weight: 500;
   font-size: 20px;

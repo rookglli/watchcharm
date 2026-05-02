@@ -3,13 +3,12 @@
 }
 .hero-wraper {
   display: flex;
-  justify-content: center;
   margin-bottom: 40px;
   justify-content: space-between;
 }
 
 .hero-wraper-text {
-  width: 597px;
+  width: 607px;
 }
 
 .hero-wraper-scroll {
@@ -23,7 +22,12 @@
   display: flex;
 }
 
+.hero-reviews-item:not(:last-child) {
+  margin-right: -15px;
+}
+
 .hero-title {
+  margin-bottom: 27px;
   font-weight: 600;
   font-size: 72px;
   line-height: 0.875;
@@ -35,7 +39,8 @@
 }
 
 .hero-text {
-  width: 450px;
+  width: 480px;
+
   font-size: 16px;
   line-height: 1.25;
 }
