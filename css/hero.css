@@ -52,3 +52,7 @@
   text-decoration-skip-ink: none;
   color: #0c0c0c;
 }
+
+.hero-scroll-down:hover, .hero-scroll-down:focus {
+  color: #3350e9;
+}

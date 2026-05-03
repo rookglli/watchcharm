@@ -41,5 +41,9 @@
   border-radius: 16px;
   line-height: 1.28571;
   color: #fffcfc;
-  background-color: blue;
+  background-color: #3350e9;
+}
+
+.about-us-link:hover, .about-us-link:focus {
+  background-color: #1f3cd4;
 }

@@ -1,8 +1,16 @@
-.section-banner {
-  background-color: black;
+.section-banner .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c0c0c;
+  width: 1150px;
+  border-radius: 30px;
+  padding: 83px 80px;
+  background-image: url('../image/baner/bg-baner.png');
+  background-repeat: no-repeat;
 }
 
 .banner-text {
+  width: 710px;
   font-weight: 600;
   font-size: 48px;
   line-height: 0.91667;
@@ -14,6 +22,18 @@
 }
 
 .banner-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  height: 48px;
   line-height: 1.28571;
   color: #fbfbfb;
+  border: 2px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+}
+
+.banner-link:hover, .banner-link:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c ;
 }

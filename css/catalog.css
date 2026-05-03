@@ -11,13 +11,22 @@
   width: 368px;
   height: 414px;
   background-color: #f3f3f3;
+  padding: 24px 32px;
+}
+
+.catalog-img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
 }
 
 .catalog-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1;
   color: #0c0c0c;
+  letter-spacing: -0.02em;
 }
 
 .catalog-text {
